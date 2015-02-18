@@ -1,0 +1,26 @@
+{
+  "name": "observ-delegate",
+  "version": "1.0.0",
+  "description": "A observable value representation that delegates to a different observable value",
+  "keywords": [],
+  "maintainers": [
+    "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de)"
+  ],
+  "repository": "git://github.com/Swatinem/observ-variant.git",
+  "main": "index",
+  "dependencies": {
+    "observ": "*"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "observ": "^0.2.0",
+    "observ-struct": "^6.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/.bin/_mocha"
+  },
+  "license": "LGPLv3"
+}
